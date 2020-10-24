@@ -1,0 +1,19 @@
+<html>
+
+    <head>
+        <title>Hello, Vadi!</title>
+        <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/>
+        <link rel="stylesheet" th:href="@{/css/main.css}"/>
+    </head>
+
+    <body>
+        <p class="field" th:text="'Аз съм Наско и името ми е: ' + ${vadi.naskoName}"></p>
+        <p class="field" th:text="'Аз съм Вико и името ми е: ' + ${vadi.vikoName}"></p>
+        <p class="field" th:text="'Аз съм Ади и името ми е: ' + ${vadi.adiName}"></p>
+
+        <button type="button" class="btn btn-primary btn-lg btn-block">Button 1</button>
+
+        <script type="text/javascript" th:src="@{webjars/bootstrap/4.2.1/js/bootstrap.min.js}"></script>
+    </body>
+
+</html>
