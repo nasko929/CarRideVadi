@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Vadi LOG-IN</title>
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}" />
+    <link rel="stylesheet" th:href="@{/css/main.css}" />
+</head>
+
+<body>
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+            <img src="/images/main_login_page_logo.png" alt="logo" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
