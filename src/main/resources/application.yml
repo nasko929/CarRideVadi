@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle12cDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    username: ES_VADI
+    password: ES_VADI
+    url: jdbc:oracle:thin:@localhost:1521/XE
+    driverClassName: oracle.jdbc.OracleDriver
